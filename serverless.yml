@@ -62,7 +62,7 @@ provider:
 functions:
   parking:
     handler: handler.parking
-    role: arn:aws:iam::163089287226:role/lambda-apigateway-role
+    #role: arn:aws:iam::163089287226:role/lambda-apigateway-role
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
 #    Check the event documentation for details
