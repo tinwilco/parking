@@ -7,7 +7,7 @@ var dynamo = new AWS.DynamoDB.DocumentClient();
 module.exports.parking = async (event) => {
    let gdate='';
    let responseCode = 200;
-   let retBody='';
+   let retBody=''; 
    console.log("Received event as : " + event);
   
    if (event.queryStringParameters && event.queryStringParameters.date) {
