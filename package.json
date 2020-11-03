@@ -1,0 +1,22 @@
+{
+  "name": "parking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinwilco/parking.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinwilco/parking/issues"
+  },
+  "homepage": "https://github.com/tinwilco/parking#readme",
+  "devDependencies": {
+    "serverless-mocha-plugin": "^1.12.0"
+  }
+}
