@@ -46,6 +46,6 @@ var result = await dynamo.query(params).promise()
         },
         body: JSON.stringify(responseBody)
     };
-    console.log("response is: " + JSON.stringify(response))
+    console.log("response isnow updated: " + JSON.stringify(response))
     return response;
 };
